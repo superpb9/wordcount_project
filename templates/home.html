@@ -1,0 +1,12 @@
+<h1>This is HTML Page</h1>
+
+<form action="{% url 'count_match' %}">
+    <textarea cols="40" rows="10" name="fulltext"></textarea>
+    <br/>
+    <input type="submit" value="Count!"></input>
+</form>
+
+
+<a href="{% url 'about_match' %}">About (dynamic)</a>
+<br/><br/>
+<a href="about">About (static)</a>
